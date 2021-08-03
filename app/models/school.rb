@@ -9,4 +9,10 @@ class School < ActiveRecord::Base
         instruments.count
     end
 
+    def owned_music
+        music.count
+    end
+
+    
+
 end
