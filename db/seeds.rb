@@ -35,7 +35,7 @@ puts "Creating Students..."
         last_name: last_name,
         grade_level: rand(9..12),
         email: Faker::Internet.email(name: "#{first_name} #{last_name}", separators: "."),
-        picture_url: Faker::LoremPixel.image(size: "226x160", category: 'animals')
+        picture_url: Faker::Lorem.image(size: "226x160", search_terms: ['yearbook_picture'])
     )
 end
 
