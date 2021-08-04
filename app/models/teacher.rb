@@ -4,4 +4,8 @@ class Teacher < ActiveRecord::Base
     has_many :instruments, through: :students
     has_many :music, through: :school
     has_many :lockers, through: :students
+
+    def what_school
+        school.school_name
+    end
 end
