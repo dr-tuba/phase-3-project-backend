@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_03_011123) do
+ActiveRecord::Schema.define(version: 2021_08_04_025210) do
 
   create_table "instruments", force: :cascade do |t|
     t.string "instrument_name"
@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 2021_08_03_011123) do
     t.string "instrumentation"
     t.string "genre"
     t.string "title"
-    t.integer "difficulty_level"
+    t.float "difficulty_level"
     t.string "publisher"
     t.integer "school_id"
     t.index ["school_id"], name: "index_musics_on_school_id"
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 2021_08_03_011123) do
     t.string "grade_level"
     t.integer "school_id"
     t.integer "teacher_id"
+    t.string "picture_url"
     t.index ["school_id"], name: "index_students_on_school_id"
     t.index ["teacher_id"], name: "index_students_on_teacher_id"
   end

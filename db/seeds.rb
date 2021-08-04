@@ -26,13 +26,16 @@ end
 
 puts "Creating Students..."
 50.times do
+    first_name = Faker::Name.first_name
+    last_name = Faker::Name.last_name
     Student.create(
         school_id: School.ids.sample,
         teacher_id: Teacher.ids.sample,
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
+        first_name: first_name,
+        last_name: last_name,
         grade_level: rand(9..12),
-        email: Faker::Internet.email
+        email: Faker::Internet.email(name: "#{first_name} #{last_name}", separators: "."),
+        picture_url: Faker::LoremPixel.image(size: "226x160", category: 'animals')
     )
 end
 
