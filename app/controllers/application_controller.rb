@@ -27,4 +27,17 @@ class ApplicationController < Sinatra::Base
     lockers.to_json(include: :student)
   end
 
+  get "/lockers/:id" do 
+    locker = Locker.find(params[:id])
+    locker.to_json
+  end
+
+  patch "/lockers/:id" do 
+    locker = Locker.find(params[:id])
+    locker.update(
+      student_id: params[:student_id]
+    )
+    locker.to_json
+  end
+
 end

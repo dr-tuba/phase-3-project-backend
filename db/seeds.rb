@@ -35,7 +35,7 @@ puts "Creating Students..."
         last_name: last_name,
         grade_level: rand(9..12),
         email: Faker::Internet.email(name: "#{first_name} #{last_name}", separators: "."),
-        picture_url: Faker::Lorem.image(size: "226x160", search_terms: ['yearbook_picture'])
+        picture_url: "https://lh3.googleusercontent.com/proxy/jUO3qfTKTwpIY0m2LKWS5VMg6iG0Z5oZi7vHmZOWG40gxB3IrjZEG6TXliVZx1JILs5I79i3yJxM9HrTm6iCsv62GLB6tKWy1jJ9NRlQUA"
     )
 end
 
@@ -76,9 +76,9 @@ end
 lockers = *(1..3500)
 students = Student.ids
 puts "Creating Lockers..."
-25.times do
+100.times do
     Locker.create(
-        student_id: students.shuffle!.pop,
+        # student_id: students.shuffle!.pop,
         locker_number: lockers.shuffle!.pop,
         locker_combination: "#{Faker::Number.decimal_part(digits: 2)}-#{Faker::Number.decimal_part(digits: 2)}-#{Faker::Number.decimal_part(digits: 2)}"
     )
