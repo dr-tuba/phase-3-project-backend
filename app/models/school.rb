@@ -12,7 +12,4 @@ class School < ActiveRecord::Base
     def owned_music
         music.count
     end
-
-    
-
 end
