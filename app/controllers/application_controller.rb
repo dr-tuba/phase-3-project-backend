@@ -9,7 +9,23 @@ class ApplicationController < Sinatra::Base
 
   get "/students" do
     students = Student.all
-    students.to_json(include: :school)
+    students.to_json(include: [:school, :locker])
+  end
+
+  post "/students" do 
+    student = Student.create(
+      first_name: params[:first_name],
+      last_name: params[:last_name],
+      email: params[:email],
+      grade_level: params[:grade_level].to_i,
+      school_id: School.find_or_create_by(school_name: params[:school_name]).id
+    )
+    student.to_json
+  end
+
+  delete "/students/:id" do
+    student = Student.find(params[:id])
+    student.destroy
   end
 
   get "/music-library" do
