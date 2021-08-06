@@ -35,7 +35,7 @@ class ApplicationController < Sinatra::Base
 
   get "/instruments" do
     instruments = Instrument.all
-    instruments.to_json(include: :student)
+    instruments.to_json(include: [:school, :student])
   end
 
   get "/lockers" do
