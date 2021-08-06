@@ -34,8 +34,8 @@ puts "Creating Students..."
         first_name: first_name,
         last_name: last_name,
         grade_level: rand(9..12),
-        email: Faker::Internet.email(name: "#{first_name} #{last_name}", separators: "."),
-        picture_url: "https://lh3.googleusercontent.com/proxy/jUO3qfTKTwpIY0m2LKWS5VMg6iG0Z5oZi7vHmZOWG40gxB3IrjZEG6TXliVZx1JILs5I79i3yJxM9HrTm6iCsv62GLB6tKWy1jJ9NRlQUA"
+        email: Faker::Internet.safe_email(name: "#{first_name} #{last_name}"),
+        picture_url: "https://paacolorado.org/wp-content/uploads/2019/10/Missing-Headshot-Placeholder.jpg"
     )
 end
 
