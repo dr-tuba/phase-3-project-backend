@@ -42,7 +42,7 @@
 
 BandDB is designed to be a simple, user-friendly database management system for secondary and post-secondary band directors. If you have used Charms in the past and struggled with it, then you need to check out BandDB! 
 
-Features of BnadDB:
+Features of BandDB:
 * Keep a digital Instrument Inventory and track which instruments are checked out to which students 
 * Digitize your music library!
 * Assign Lockers to students and easily access their locker combination when they forget! 
@@ -105,25 +105,25 @@ Create a new directory on your machine and run the following commands in your te
 ## Usage
 
 ### Students Tab
-<!-- Text here, gif below -->
+In the Students Tab you can see all of your students. On each student you can assign them a locker, and also easily access their locker combination if they forget it! You can also add new students using the form at the top of the page, or delete a student that is no longer attending your school. 
 <p align='center'>
   <img width='75%' src=""/>
 </p>
 
 ### Music Library Tab
-<!-- Text here, gif below -->  
+In the Music Library Tab you can see all of the pieces you have in your library. 
 <p align='center'>
   <img width='75%' src=""/>
 </p>
 
 ### Instrument Inventory Tab
-<!-- Text here, gif below -->
+In the Instrument Inventory Tab you can see information about the instruments in the school such as condition, brand, model, and serial number. 
 <p align='center'>
   <img width='75%' src=""/>
 </p>
 
 ### Lockers Tab
-<!-- Text here, gif below -->
+In the Lockers Tab you see a full list of all the lockers in your room, and any students that are assigned to them. This can be another way to easily access locker information for a student. 
 <p align='center'>
   <img width='75%' src=""/>
 </p>
