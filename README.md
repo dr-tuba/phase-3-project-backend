@@ -5,7 +5,7 @@
     Simplified Inventory Management & Digital Assistant for Band Directors
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://www.loom.com/share/1fcd3ac44fe84415b8b5eb707b0ba025?sharedAppSource=personal_library">View Demo</a>
   </p>
 </p>
 
@@ -107,25 +107,25 @@ Create a new directory on your machine and run the following commands in your te
 ### Students Tab
 In the Students Tab you can see all of your students. On each student you can assign them a locker, and also easily access their locker combination if they forget it! You can also add new students using the form at the top of the page, or delete a student that is no longer attending your school. 
 <p align='center'>
-  <img width='75%' src=""/>
+  <img width='75%' src="https://user-images.githubusercontent.com/82396393/134093239-9996168c-43ca-4d84-98a0-4f47462bb416.gif"/>
 </p>
 
 ### Music Library Tab
 In the Music Library Tab you can see all of the pieces you have in your library. 
 <p align='center'>
-  <img width='75%' src=""/>
+  <img width='75%' src="https://user-images.githubusercontent.com/82396393/134093303-25697d55-9ad7-40cc-bfa5-a7638be9500a.gif"/>
 </p>
 
 ### Instrument Inventory Tab
 In the Instrument Inventory Tab you can see information about the instruments in the school such as condition, brand, model, and serial number. 
 <p align='center'>
-  <img width='75%' src=""/>
+  <img width='75%' src="https://user-images.githubusercontent.com/82396393/134093414-7b0bedda-64c2-4a36-ba2c-3ad71aaa6e4f.gif"/>
 </p>
 
 ### Lockers Tab
 In the Lockers Tab you see a full list of all the lockers in your room, and any students that are assigned to them. This can be another way to easily access locker information for a student. 
 <p align='center'>
-  <img width='75%' src=""/>
+  <img width='75%' src="https://user-images.githubusercontent.com/82396393/134093497-07bc57f0-4d92-4b57-9d5b-601447a67eb3.gif"/>
 </p>
 
 <!-- ROADMAP -->
@@ -152,4 +152,3 @@ Steve Vaughn - [GitHub](https://github.com/stevehvaughn) | [LinkedIn](https://ww
 Project Link: [https://github.com/stevehvaughn/banddb-frontend]https://github.com/stevehvaughn/banddb-frontend) | [https://github.com/stevehvaughn/banddb-backend]https://github.com/stevehvaughn/banddb-backend)
 
 <!-- ACKNOWLEDGEMENTS -->
-
