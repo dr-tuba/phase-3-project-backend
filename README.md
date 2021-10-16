@@ -149,6 +149,6 @@ Are you a teacher who also codes? Do you want to contribute to this open-source 
 
 Steve Vaughn - [GitHub](https://github.com/stevehvaughn) | [LinkedIn](https://www.linkedin.com/in/stevehvaughn/) | [Medium](https://stevehvaughn.medium.com/) | [Twitter](https://twitter.com/stevehvaughn) | [Email](steve.h.vaughn@gmail.com)
 
-Project Link: [https://github.com/stevehvaughn/banddb-frontend]https://github.com/stevehvaughn/banddb-frontend) | [https://github.com/stevehvaughn/banddb-backend]https://github.com/stevehvaughn/banddb-backend)
+Project Link: [Front-end Repo](https://github.com/stevehvaughn/banddb-frontend) | [Back-end Repo](https://github.com/stevehvaughn/banddb-backend)
 
 <!-- ACKNOWLEDGEMENTS -->
